@@ -1,0 +1,133 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar{
+	background-color: #23415c;
+	padding: 1% 0;
+	font-size: 1.2em;
+
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+	color: #fff;
+}
+#home{
+	background: url(img/mountains.jpeg);
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+
+}
+
+.padding{
+	padding: 80px 0;
+}
+
+.padding img{
+	width: 100%;
+}
+
+#fixed{
+	background: url(img/background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer{
+	width: 100%;
+	background-color: #23415c;
+	padding: 2% 5% 11% 5%;
+	color: #fff;
+	height: 90px;
+}
+
+
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.fa:hover{
+	color: #d5d5d5;
+	text-decoration: none;
+}
+
+.icon{
+	width: 200px;
+}
+
+.slider_padding{
+	padding: 80px 0;
+}
+
+.slider_padding img{
+	width: 100%;
+}
+
+.logo-padding{
+	padding-left: 40px;
+
+}
+
+@media (max-width: 768px){
+	.landing-text h1{
+		font-size: 300%;
+	}
+	.fa{
+	font-size: 20px;
+	padding: 10px;
+
+		}
+	.icon{
+		padding-top: 5%;
+		max-width: 100px;
+
+		}
+
+		.slider_padding{
+	padding-top: 60px;
+}
+.padding{
+	padding: 10px;
+}
+	img.img-myresponsive{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+
+	}
+
+	.logo-padding{
+		padding-left: 10px;
+		padding-top: 7px;
+		width: 70px;
+	}
+}
+
